@@ -13,6 +13,6 @@ func init() {
 }
 
 func petaPedia(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Access-Control-Allow-Origin", "https://jscroot.github.io,https://petapedia.github.io")
+	w.Header().Set("Access-Control-Allow-Origin", "https://jscroot.github.io")
 	fmt.Fprintf(w, peda.GCFHandler("MONGOULBI", "petapedia", "petapedia"))
 }
