@@ -1,4 +1,4 @@
-module petapedia
+module github.com/petapedia/gcf
 
 go 1.21.2
 

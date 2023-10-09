@@ -1,4 +1,4 @@
-package petapedia
+package gcf
 
 import (
 	"encoding/json"
