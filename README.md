@@ -5,6 +5,7 @@ Jangan lupa setting env database mongo di google cloud function
 
 
 Isi file function.go dan go.mod dengan yang ada di repo gcf petapedia, klik deploy.  
+![image](https://github.com/petapedia/gcf/assets/11188109/84f1be81-08e1-4d4c-9004-e3c905159b78)
 
 ![image](https://github.com/petapedia/gcf/assets/11188109/db4648df-5390-47ae-9fc6-19843fb50490)
 
