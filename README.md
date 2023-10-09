@@ -1,5 +1,6 @@
 # gcf
-Google Cloud Function Example.
+Google Cloud Function Example. Dengan struktur collection mongo  
+![image](https://github.com/petapedia/gcf/assets/11188109/1d100401-afc8-4451-81aa-be35f2d13ea1)
 
 ## Langkah 
 
