@@ -11,3 +11,6 @@ Isi file function.go dan go.mod dengan yang ada di repo gcf petapedia, klik depl
 
 Tunggu Proses Build Selesai  
 ![image](https://github.com/petapedia/gcf/assets/11188109/0f3ccfe9-7ec8-4cff-a7f1-e0e8a1375951)
+
+Liat Log Jika Ada Error  
+![image](https://github.com/petapedia/gcf/assets/11188109/80ead846-b81a-4e45-a0bc-d527f822948b)
