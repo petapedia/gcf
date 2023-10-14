@@ -1,6 +1,7 @@
 package gcf
 
 import (
+	"encoding/json"
 	"fmt"
 	"net/http"
 
@@ -9,10 +10,25 @@ import (
 )
 
 func init() {
-	functions.HTTP("PetaPedia", petaPedia)
+	functions.HTTP("PetaPedia", petaPediaGet)
 }
 
-func petaPedia(w http.ResponseWriter, r *http.Request) {
+func petaPediaGet(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "https://jscroot.github.io")
 	fmt.Fprintf(w, peda.GCFHandler("MONGOULBI", "petapedia", "petapedia"))
+}
+
+func petaPediaPost(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "https://jscroot.github.io")
+	var d struct {
+		Username string `json:"username" bson:"username"`
+		Password string `json:"password" bson:"password"`
+	}
+	err := json.NewDecoder(r.Body).Decode(&d)
+	if err != nil {
+		fmt.Fprintf(w, "error parsing application/json: "+err.Error())
+	} else {
+		fmt.Fprintf(w, "Hai "+err.Error())
+	}
+
 }
