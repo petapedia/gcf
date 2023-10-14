@@ -22,7 +22,7 @@ func petaPediaPost(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Fprintf(w, "error parsing application/json: "+err.Error())
 	} else {
-		fmt.Fprintf(w, "Hai "+err.Error())
+		fmt.Fprintf(w, "Hai "+d.Username)
 	}
 
 }
