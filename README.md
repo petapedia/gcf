@@ -17,6 +17,6 @@ Liat Log Jika Ada Error
 ![image](https://github.com/petapedia/gcf/assets/11188109/80ead846-b81a-4e45-a0bc-d527f822948b)
 
 Agar API bisa diakses Publik Berikan Akses Publik dari Menu Cloud Run dan Tambahkan permission sebagai berikut:  
-New Principall : AllUsers  
+New Principals : AllUsers  
 Role : Cloud Run Invoker  
 ![image](https://github.com/petapedia/gcf/assets/11188109/45b84091-3e42-4124-9264-ae86e08d49b3)
