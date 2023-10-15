@@ -871,8 +871,8 @@ github.com/montanaflynn/stats v0.6.6/go.mod h1:etXPPgVO6n31NxCd9KQUMvCM+ve0ruNzt
 github.com/montanaflynn/stats v0.7.1 h1:etflOAAHORrCC44V+aR6Ftzort912ZU+YLiSTuV8eaE=
 github.com/montanaflynn/stats v0.7.1/go.mod h1:etXPPgVO6n31NxCd9KQUMvCM+ve0ruNzt6R8Bnaayow=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
-github.com/petapedia/peda v0.0.6 h1:mqRzvilDzSM/5/14eKuUk3/2F++PI01cmCyTQtzzJsc=
-github.com/petapedia/peda v0.0.6/go.mod h1:Z48UKIvqbsua8VjtVBxgOC3d417bo6VIT6mH1aJewJ4=
+github.com/petapedia/peda v0.0.7 h1:87IDnuZ9k+4jUtzhhZN7pk0ttC4w8GoehimBu5y726w=
+github.com/petapedia/peda v0.0.7/go.mod h1:Z48UKIvqbsua8VjtVBxgOC3d417bo6VIT6mH1aJewJ4=
 github.com/phpdave11/gofpdf v1.4.2/go.mod h1:zpO6xFn9yxo3YLyMvW8HcKWVdbNqgIfOOp2dXMnm1mY=
 github.com/phpdave11/gofpdi v1.0.12/go.mod h1:vBmVV0Do6hSBHC8uKUQ71JGW+ZGQq74llk/7bXwjDoI=
 github.com/phpdave11/gofpdi v1.0.13/go.mod h1:vBmVV0Do6hSBHC8uKUQ71JGW+ZGQq74llk/7bXwjDoI=
