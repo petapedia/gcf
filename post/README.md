@@ -11,7 +11,7 @@ Setting Environment Variabel
 
 if u want to get token in the header of post just use this function 
 ```go
-func VerifyToken(r *http.Request) string {
+func GetToken(r *http.Request) string {
     return r.Header.Get("Authorization")
 }
 ```
