@@ -1,4 +1,7 @@
 # Google Cloud Function HTTP POST
+Dua file yang di taruh di GCF :
+1. [function.go](function.go)
+2. [go.mod](go.mod)
 
 ## Database
 

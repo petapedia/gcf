@@ -1,4 +1,7 @@
 # Google Cloud Function HTTP POST
+Dua file yang di taruh di GCF :
+1. [function.go](function.go)
+2. [go.mod](go.mod)
 
 Dicontohkan dengan menggunakan databse mongo  
 ![image](https://github.com/petapedia/gcf/assets/11188109/46863a76-b87e-436d-9598-93253e7df8e2)
