@@ -4,7 +4,7 @@ go 1.21.2
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
-	github.com/petapedia/peda v0.0.8
+	github.com/petapedia/peda v0.1.1
 )
 
 require (
