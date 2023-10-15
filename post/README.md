@@ -5,3 +5,6 @@ Dicontohkan dengan menggunakan databse mongo
 
 Test API  
 ![image](https://github.com/petapedia/gcf/assets/11188109/b36ffe44-f71e-4322-83e6-ee2803a19381)
+
+Setting Environment Variabel  
+![image](https://github.com/petapedia/gcf/assets/11188109/ac2c505e-34d4-4a2a-862a-a6926bd14f4a)
