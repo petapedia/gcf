@@ -28,3 +28,9 @@ func GetID(r *http.Request) string {
     return r.URL.Query().Get("id")
 }
 ```
+to get url or path
+```go
+func GetID(r *http.Request) string {
+    return fmt.Printf("Req: %s %s\n", r.Host, r.URL.Path)
+}
+```
