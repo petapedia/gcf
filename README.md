@@ -1,10 +1,11 @@
-# gcf
-Google Cloud Function Example. Dengan struktur collection mongo  
-![image](https://github.com/petapedia/gcf/assets/11188109/1d100401-afc8-4451-81aa-be35f2d13ea1)
+# Google Cloud Function Example
+Contoh Penerapan Google Cloud Function dengan penggunaan Package [peda](https://pkg.go.dev/github.com/petapedia/peda).
 1. [GET](./get)
 2. [POST](./post)
 
 ## Langkah 
+Buat database di mongodb.com. Contoh tampilan struktur collection mongo  
+![image](https://github.com/petapedia/gcf/assets/11188109/1d100401-afc8-4451-81aa-be35f2d13ea1)
 
 Jangan lupa setting env database mongo di google cloud function  
 ![image](https://github.com/petapedia/gcf/assets/11188109/a927c980-e81f-471a-a100-f437e330b185)
