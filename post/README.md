@@ -22,3 +22,9 @@ func GetToken(r *http.Request) string {
     return r.Header.Get("Authorization")
 }
 ```
+to get query parameter like https://localhost:3000?id=abcdefghi
+```go
+func GetID(r *http.Request) string {
+    return r.URL.Query().Get("id")
+}
+```
